@@ -1,14 +1,19 @@
-.landing{
+.landing-main{
     display: flex; 
     justify-content: center;
     margin-top: 3rem;
 }
-.landing h1{
+.landing-main h1{
     font-size: 85px;
-    margin-left: 40px;
     color: #ffffff00;
   -webkit-text-stroke: 1px rgb(16, 154, 196);
 }
-.landing img{
-   
+.landing-title{
+  margin-left: 100px;
+}
+.landing-title button{
+  padding: 5px 20px;
+  background-color:rgb(16, 154, 196) ;
+  color: rgb(231, 220, 220);
+  margin-top: 20px;
 }

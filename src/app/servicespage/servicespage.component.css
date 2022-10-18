@@ -1,0 +1,30 @@
+.services-head h1{
+    text-align: center;
+    font-size: 90px;
+    margin-top: 3rem;
+    color: rgb(199, 197, 197);
+    font-weight: 600;
+}
+.services-head h2{
+    text-align: center;
+    margin-top: 30px;
+
+}
+.services-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.para{
+    margin-left: 25px;
+}
+.para p{
+    width: 20rem;
+    margin-top:8rem ;
+}
+.para button{
+    padding: 5px 20px;
+    background-color:rgb(16, 154, 196) ;
+    color: rgb(231, 220, 220);
+    margin-top: 20px;
+}

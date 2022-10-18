@@ -1,16 +1,20 @@
 .navbar-header{
     display: flex;
     justify-content: center;
+    background-color: rgb(171, 225, 241) ;
+    margin: 0px 3vw;
+    border-radius: 0px 0px 10px 10px;
 }
 .navbar-header ul {
     list-style: none;
     display: flex;
-    margin: 30px;
+    margin-top: 20px;
 }
 .navbar-header ul li{
     margin-inline: 20px;
     transition: .5s ease;
     font-weight: 800;
+    font-size: 20px;
 }
 a{ 
     text-decoration: none;
