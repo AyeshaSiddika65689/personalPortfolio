@@ -1,0 +1,23 @@
+.navbar-header{
+    display: flex;
+    justify-content: center;
+}
+.navbar-header ul {
+    list-style: none;
+    display: flex;
+    margin: 30px;
+}
+.navbar-header ul li{
+    margin-inline: 20px;
+    transition: .5s ease;
+    font-weight: 800;
+}
+a{ 
+    text-decoration: none;
+    color:rgb(16, 154, 196) ;
+   
+}
+.navbar-header ul li :hover{
+    color: rgb(33, 104, 126);
+}
+
