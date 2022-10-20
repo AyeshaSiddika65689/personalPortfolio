@@ -3,18 +3,24 @@
         <h1> Major Projects</h1>
     </div>
     <div class="testimony-content row row-cols-1 row-cols-md-3 g-4">
-        <div class="container" *ngFor="let item of cardDetails">
-            <div class="card ">
-              <div class="card-header">
-                <img src="{{item.image}}" alt="rover" />
+       <ul class="cards col " *ngFor="let item of cardDetails">
+        <li>
+          <a href="{{item.path}}" class="card">
+            <img src="{{item.image}}" class="card__image" alt="" />
+            <div class="card__overlay">
+              <div class="card__header">
+                <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                  <path />
+                </svg>
+                <div class="card__header-text">
+                  <h3 class="card__title">{{item.title}}</h3>
+                  <span class="card__status">Explore</span>
+                </div>
+              </div>
+              <p class="card__description">{{item.desc}}</p>
             </div>
-            <div class="card-body">
-                <span class="tag tag-teal">{{item.title}}</span>
-                <h4>Explore</h4>
-                <p>
-                  {{item.desc}}
-                </p>
-            </div>
-       </div>
+          </a>
+        </li>
+      </ul>
     </div>
 </div>

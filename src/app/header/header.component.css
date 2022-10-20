@@ -1,9 +1,7 @@
 .navbar-header{
     display: flex;
     justify-content: center;
-    background-color: rgb(171, 225, 241) ;
-    margin: 0px 3vw;
-    border-radius: 0px 0px 10px 10px;
+    background-color:#0f3d3e; 
 }
 .navbar-header ul {
     list-style: none;
@@ -13,15 +11,12 @@
 .navbar-header ul li{
     margin-inline: 20px;
     transition: .5s ease;
-    font-weight: 800;
     font-size: 20px;
-}
-a{ 
     text-decoration: none;
-    color:rgb(16, 154, 196) ;
-   
+    color:#F1F1F1 ;
+    cursor: pointer;
 }
 .navbar-header ul li :hover{
-    color: rgb(33, 104, 126);
+    color: #E2DCC8;
 }
 

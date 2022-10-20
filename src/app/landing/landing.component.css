@@ -1,19 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lobster&display=swap');
+
 .landing-main{
     display: flex; 
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 .landing-main h1{
-    font-size: 85px;
-    color: #ffffff00;
-  -webkit-text-stroke: 1px rgb(16, 154, 196);
+    font-size: 65px;
+    color: #0F3D3E;
+    font-weight: 900;
+    padding-top: 8rem;
+   /* -webkit-text-stroke: 1px #E2DCC8;   */
+}
+.landing-main h2{
+  color: #E2DCC8;
+  font-size: 35px;
 }
 .landing-title{
   margin-left: 100px;
 }
 .landing-title button{
   padding: 5px 20px;
-  background-color:rgb(16, 154, 196) ;
-  color: rgb(231, 220, 220);
+  background-color:#0F3D3E;
+  color:#E2DCC8;
   margin-top: 20px;
 }
+/* .round{
+  position: absolute;
+width: 236px;
+height: 239px;
+left: 210px;
+top: 337px;
+
+background: linear-gradient(180deg, #a1d1dd 22.92%, rgba(102, 25, 201, 0.23) 99.48%);
+filter: blur(50px);
+backdrop-filter: blur(50px);
+z-index: -1;
+} */

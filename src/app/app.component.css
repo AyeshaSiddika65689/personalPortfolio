@@ -1,3 +1,6 @@
+.main{
+    background-color: #100F0F;
+}
 app-servicespage{
     display: flex;
     justify-content: center;

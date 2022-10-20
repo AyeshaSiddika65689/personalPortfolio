@@ -2,11 +2,11 @@
     text-align: center;
     height: 40vh;
     display: block;
-    background-color:rgb(16, 154, 196) ;
+    background-color:#0F3D3E;
   }
   .footer h1 {
     font-weight: 800;
-    color: #fff;
+    color: #F1F1F1;
     padding-top: 30px;
   }
   .social {
@@ -19,8 +19,8 @@
     margin-top: 35px;
   }
   .social ul li a {
-    color: white;
-    background-color:rgb(7, 76, 97) ;
+    color: #F1F1F1;
+    background-color:#032222 ;
     padding: 13px;
     border-radius: 50%;
     margin: 10px;
@@ -36,5 +36,5 @@
   }
   p{
       margin-top: 3rem;
-      color: #fff;
+      color: #F1F1F1;
   }
