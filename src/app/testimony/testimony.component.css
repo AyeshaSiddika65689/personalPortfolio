@@ -121,10 +121,10 @@
 }
 @media (max-width: 768px) {
   .testimony-head h1 {
-    font-size: 40px;
+    font-size: 50px;
   }
   .card {
     height: 420px;
-    width: 350px;
+    width: 370px;
   }
 }

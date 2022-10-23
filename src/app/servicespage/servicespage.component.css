@@ -52,7 +52,11 @@ a{
         height: 200px;
     }
     .para{
-        margin-left: 0px;
+        margin-left: 5px;
     }
-    
+    .para p{
+        width: 20rem;
+        margin-top:4rem ;
+    }
+
 }
