@@ -22,7 +22,7 @@
 
 @media (max-width: 768px) {
   .navbar-header ul li {
-    margin-inline: 8px;
+    margin-inline: 4px;
     font-size: 15px;
   }
 }

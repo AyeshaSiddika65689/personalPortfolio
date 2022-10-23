@@ -1,7 +1,21 @@
-.main{
-    background-color: #100F0F;
+.main {
+  background-color: #100f0f;
 }
-app-servicespage{
+app-servicespage {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  app-landing {
     display: flex;
     justify-content: center;
+  }
+  app-servicespage {
+    display: flex;
+    justify-content: center;
+  }
+  app-testimony {
+    display: flex;
+    justify-content: center;
+  }
 }
