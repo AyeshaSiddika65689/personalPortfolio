@@ -38,3 +38,14 @@
       margin-top: 3rem;
       color: #F1F1F1;
   }
+
+  @media (max-width: 768px) {
+    .footer h1 {
+      font-weight: 600;
+      padding-top: 30px;
+      font-size: 25px;
+    }
+  }
+
+  
+  
