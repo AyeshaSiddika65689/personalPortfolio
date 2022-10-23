@@ -41,13 +41,13 @@
   }
   img{
     height: 300px;
-    margin-left: 10px;
+    margin-left: 25px;
   }
   .landing-title {
     margin-left: 0px;
   }
   .landing-title button {
     padding: 5px 18px;
-    margin-left: 25px;
+    margin-left: 5px;
   }
 }
